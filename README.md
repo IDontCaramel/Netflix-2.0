@@ -1,2 +1,3 @@
 # Netflix-2.0
-a remake of the netflix website made for a school project
+
+for school we had to make a remake of the netflix website. i did this together with NAME.
