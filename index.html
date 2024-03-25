@@ -7,7 +7,7 @@
     <link rel="stylesheet/css" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
-    <link rel="icon" type="image/png" href="imgs/" />
+    <link rel="icon" type="image/png" href="imgs/netflix_icon.png" />
 
     <title>Netflix 2.0</title>
     
@@ -18,7 +18,138 @@
 </head>
 <body>
     
+    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="imgs/logo.png" alt="" width="100" height="40">
+              </a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Link</a>
+              </li>
+              
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
     
+    <header>
+        <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+            <ol class="carousel-indicators">
+                <li
+                    data-bs-target="#carouselId"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="First slide"
+                ></li>
+                <li
+                    data-bs-target="#carouselId"
+                    data-bs-slide-to="1"
+                    aria-label="Second slide"
+                ></li>
+                <li
+                    data-bs-target="#carouselId"
+                    data-bs-slide-to="2"
+                    aria-label="Third slide"
+                ></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <img
+                        src="imgs/banner_money_heist.jpg"
+                        class="w-100 d-block"
+                        alt="First slide"
+                    />
+                </div>
+                <div class="carousel-item">
+                    <img
+                        src="imgs/banner_stranger_things.png"
+                        class="w-100 d-block"
+                        alt="Second slide"
+                    />
+                </div>
+                <div class="carousel-item">
+                    <img
+                        src="imgs/banner_the_witcher.png"
+                        class="w-100 d-block"
+                        alt="Third slide"
+                    />
+                </div>
+            </div>
+            <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselId"
+                data-bs-slide="prev"
+            >
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselId"
+                data-bs-slide="next"
+            >
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        
+    </header>
+
+    <div class="Catagories">
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+    </div>
+
+    <div class="cards">
+        <div class="card1">
+            1
+        </div>
+        <div class="card2">
+            2
+        </div>
+        <div class="card3">
+            3
+        </div>
+        <div class="card4">
+            4
+        </div>
+        <div class="card5">
+            5
+        </div>
+        <div class="card6">
+            6
+        </div>
+
+    </div>
 
 </body>
 <script src="js/bootstrap.bundle.min.js"></script> 
