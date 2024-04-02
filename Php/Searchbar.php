@@ -54,7 +54,7 @@
         $SearchRequest = $_POST["SearchRequest"];
         foreach ($allMovies as $movie => $banner) {
             if (strtolower($SearchRequest) == strtolower($movie)) {
-                echo $banner;
+                echo '<img src="../imgs/banners/'.$banner.'"/>';    
             }
         }
     }
