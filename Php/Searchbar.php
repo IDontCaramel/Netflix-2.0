@@ -8,11 +8,6 @@
 </head>
 
 <body>
-    <form method="post">
-        <label for="movie">Search for a Movie:</label><br>
-        <input type="text" id="movie" name="SearchRequest"><br><br>
-        <input type="submit" value="Submit">
-    </form>
 
     <?php
 
@@ -59,7 +54,7 @@
         $SearchRequest = $_POST["SearchRequest"];
         foreach ($allMovies as $movie => $banner) {
             if (strtolower($SearchRequest) == strtolower($movie)) {
-                echo "<img src='../imgs/$banner' alt='$movie'>";7
+                echo $banner;
             }
         }
     }
