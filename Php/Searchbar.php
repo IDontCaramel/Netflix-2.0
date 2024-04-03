@@ -12,7 +12,7 @@
     <?php
 
     $allMovies = array(
-        "the equalizer" => "banner 001.jpg",
+        "the equalizer" => "/Romance/HappySingle.jpg",
         "the martian" => "banner 002.jpg",
         "despicable me" => "banner 003.jpg",
         "ome cor" => "banner 004.jpg",
@@ -54,7 +54,7 @@
         $SearchRequest = $_POST["SearchRequest"];
         foreach ($allMovies as $movie => $banner) {
             if (strtolower($SearchRequest) == strtolower($movie)) {
-                echo '<img src="../imgs/banners/'.$banner.'"/>';    
+                echo '<img src="../imgs/'.$banner.'"/>';    
             }
         }
     }
