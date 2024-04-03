@@ -85,11 +85,10 @@
     if (isset($_POST["SearchRequest"])) {
         $SearchRequest = $_POST["SearchRequest"];
         foreach ($allMovies as $movie => $banner) {
-            if (strtolower($SearchRequest) == strtolower($movie)) {
-                echo '<img src="../imgs/'.$banner.'"/>';    
-                echo '<div class="container-fluid d-flex justify-content-center align-items-start vh-100" style="margin-top: 20px;">
+            if (strtolower($SearchRequest) == strtolower($movie)) {  
+                echo '<div class="container-fluid d-flex justify-content-center align-items-start vh-100" style="margin-top: 150px;">
                         <div class="card text-white bg-dark" style="width: 30rem;">
-                            <img src="../imgs/banners/' . $banner . '" class="card-img-top" alt="...">
+                            <img src="../imgs/' . $banner . '" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">' . $movie . '</h5>
                                 <p class="card-text">Some information about the movie.</p>
