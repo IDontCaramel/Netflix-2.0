@@ -103,7 +103,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">' . $movie . '</h5>
                                 <p class="card-text">Some information about the movie.</p>
-                                <a href="#" class="btn btn-primary">Watch movie!</a>
+                                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="btn btn-primary">Watch movie!</a>
                             </div>
                         </div>
                     </div>';
