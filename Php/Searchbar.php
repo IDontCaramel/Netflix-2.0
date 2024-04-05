@@ -30,10 +30,6 @@
                     </li>
 
                 </ul>
-                <form class="d-flex" action="Php/Searchbar.php" method="post">
-                    <input class="form-control me-2" type="text" name="SearchRequest" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-primary" type="submit">Search</button>
-                </form>
             </div>
             <div>
                 <img class="User" src="imgs/Netflix-avatar.png" alt="">
